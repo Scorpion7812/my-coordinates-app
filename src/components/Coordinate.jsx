@@ -21,16 +21,16 @@ componentDidMount(){
         
         (error) => {this.setState({errorMessage:error.message})}
     )
-    console.log("hi");
+    
 }
 
-componentDidUpdate(){
-    console.log("from update");
-}
+// componentDidUpdate(){
+//     console.log("from update");
+// }
 
-componentWillUnmount(){
-    console.log("from unmount");
-}
+// componentWillUnmount(){
+//     console.log("from unmount");
+// }
 render(){
     
         if(this.state.errorMessage !=='' && this.state.latitude === '')
