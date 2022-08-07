@@ -39,7 +39,7 @@ render(){
         )
         }if(this.state.errorMessage === '' && this.state.latitude !== ''){
             return( <div>
-                        <Hemispheres lati={this.state.latitude} long={this.state.longitude} />  
+                        <Hemispheres lati={this.state.latitude} long={this.state.longitude} err={this.state.errorMessage} />  
                     </div>     
             )
         }else{

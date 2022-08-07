@@ -14,7 +14,7 @@ const hemispheresconfig = {
 export function Hemispheres(props){
     var latitude     = props.lati;
     var longitude    = props.long;
-    var error        = props.err;
+    
     var hemisphere   = '';
     if( latitude !=='' )
     {    
